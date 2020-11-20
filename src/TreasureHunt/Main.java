@@ -131,19 +131,19 @@ Tough Stretch and Challenge
 
     public static void printAndPublishScore() {
         System.out.println("You have finished the game with the score of " + score);
-        Scanner scan = new Scanner(System.in);
-        try{
-            System.out.print("Do you want to save this score?(y/n)\t");
-            char confirmation = scan.next().charAt(0);
-            if(confirmation==('y')){
-                System.out.print("What is your nickname - ");
-            }else{
-                System.out.println("Thanks for playing!");
-            }
-
-        }catch(Exception e){
-            System.out.println("Error: " + e);
-        }
+//        Scanner scan = new Scanner(System.in);
+//        try{
+//            System.out.print("Do you want to save this score?(y/n)\t");
+//            char confirmation = scan.next().charAt(0);
+//            if(confirmation==('y')){
+//                System.out.print("What is your nickname - ");
+//            }else{
+//                System.out.println("Thanks for playing!");
+//            }
+//
+//        }catch(Exception e){
+//            System.out.println("Error: " + e);
+//        }
 
         //Will write to text file
     }
